@@ -1,0 +1,44 @@
+header {
+    height: 85px;
+    background-color: var(--secondary-color);
+
+    display: flex; /* make header a flex container */
+    align-items: stretch; /* center navbar vertically */
+}
+
+.navbar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.logo {
+    margin-left: 20px;
+    font-size: 2rem;
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-family: "PoppinsB";
+    font-size: 1.3rem;
+    color: var(--primary-color);
+}
+
+a:visited {
+}

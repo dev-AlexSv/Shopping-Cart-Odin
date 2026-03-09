@@ -1,0 +1,13 @@
+button {
+    padding: 10px 20px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-family: "PoppinsB";
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: var(--accent-color);
+    transition: ease-in-out 0.2s;
+}
