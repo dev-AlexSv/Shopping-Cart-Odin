@@ -6,7 +6,8 @@ import { Button } from "./components/Button.jsx";
 import { Header } from "./components/Header.jsx";
 
 function App() {
-    const [count, setCount] = useState(0);
+    const [items, setItems] = useState([]);
+    const [cart, setCart] = useState([]);
 
     return (
         <>
