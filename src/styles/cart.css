@@ -1,0 +1,11 @@
+#left-layout {
+    width: 58%;
+    height: calc(100% - 90px);
+    border: 2px solid blue;
+}
+
+#right-layout {
+    width: 37%;
+    height: calc(100% - 90px);
+    border: 2px solid green;
+}

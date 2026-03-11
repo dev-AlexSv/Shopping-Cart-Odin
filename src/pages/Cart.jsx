@@ -1,10 +1,16 @@
 import "../styles/items.css";
+import "../styles/cart.css";
 
 export function Cart() {
     return (
         <>
-            <h1></h1>
-            <div id="cart-items"></div>
+            <div id="left-layout">
+                <h2></h2>
+                <div id="cart-items"></div>
+            </div>
+            <div id="right-layout">
+                <h2>Checkout</h2>
+            </div>
         </>
     );
 }

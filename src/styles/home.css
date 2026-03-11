@@ -1,0 +1,20 @@
+#layout-bg {
+    width: 100%;
+    height: calc(100% - 87px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-image: url(../assets/clothing-store.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#layout-bg > h2 {
+    font-size: 4rem;
+    font-family:
+        "RobotoI", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: black;
+}
