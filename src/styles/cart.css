@@ -1,7 +1,20 @@
+.cart-layout {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
 #left-layout {
     width: 58%;
     height: calc(100% - 90px);
     border: 2px solid blue;
+}
+
+#left-layout > #cart-items {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    overflow-y: scroll;
 }
 
 #right-layout {
