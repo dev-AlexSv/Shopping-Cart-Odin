@@ -1,7 +1,7 @@
 import "../styles/items.css";
 import "../styles/cart.css";
 
-export function Cart() {
+export function Cart({ items }) {
     return (
         <>
             <div id="left-layout">

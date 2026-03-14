@@ -1,4 +1,5 @@
 import "../styles/header.css";
+import { Link } from "react-router";
 
 export function Header() {
     return (
@@ -10,13 +11,13 @@ export function Header() {
                     </a>
                     <ul class="nav-links">
                         <li>
-                            <a href="#">Home</a>
+                            <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <a href="#">Products</a>
+                            <Link to="products">Products</Link>
                         </li>
                         <li>
-                            <a href="#">Your Cart</a>
+                            <Link to="cart">Cart</Link>
                         </li>
                     </ul>
                 </nav>
